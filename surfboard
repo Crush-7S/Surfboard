@@ -43,7 +43,7 @@ DIRECT = direct
 
 🐟 漏网之鱼 = select,🚀 手动切换,DIRECT
 
-🇭🇰 香港节点 = url-test,, interval=604800,  policy-regex-filter=HK-.*,tolerance=100,timeout=5,hidden=true,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash,url: http://www.gstatic.com/generate_204
+🇭🇰 香港节点 = url-test, interval=604800,  policy-regex-filter=HK-.*,tolerance=100,timeout=5,hidden=true,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash,url: http://www.gstatic.com/generate_204
 
 🇯🇵 日本节点 = url-test,interval=604800, policy-regex-filter=JP-.*, tolerance=100,timeout=5,hidden=true,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash,url: http://www.gstatic.com/generate_204
 
