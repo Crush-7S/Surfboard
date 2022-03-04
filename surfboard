@@ -43,7 +43,7 @@ DIRECT = direct
 
 🐟 漏网之鱼 = select,🚀 手动切换,DIRECT
 
-🇭🇰 香港节点 = url-test,, interval=604800,  policy-regex-filter=香港|HK|HongKong-.*,tolerance=100,timeout=5,hidden=true,policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgist.githubusercontent.com%2FCrush-7S%2F8a553f848622384d7b4b06a21abbdee9%2Fraw%2FClash&insert=false&emoji=true&list=true&tfo=false&scv=false&fdn=false&sort=false,url: http://www.gstatic.com/generate_204
+🇭🇰 香港节点 = url-test,interval=604800,  policy-regex-filter=香港|HK|HongKong-.*,tolerance=100,timeout=5,hidden=true,policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgist.githubusercontent.com%2FCrush-7S%2F8a553f848622384d7b4b06a21abbdee9%2Fraw%2FClash&insert=false&emoji=true&list=true&tfo=false&scv=false&fdn=false&sort=false,url: http://www.gstatic.com/generate_204
 
 🇯🇵 日本节点 = url-test,interval=604800, policy-regex-filter=日本|JP-.*, tolerance=100,timeout=5,hidden=true,policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgist.githubusercontent.com%2FCrush-7S%2F8a553f848622384d7b4b06a21abbdee9%2Fraw%2FClash&insert=false&emoji=true&list=true&tfo=false&scv=false&fdn=false&sort=false,url: http://www.gstatic.com/generate_204
 
