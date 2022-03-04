@@ -11,9 +11,9 @@ DIRECT = direct
 
 
 [Proxy Group]
-🚀 手动切换 = select,♻️ 自动切换,update-interval=604800,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash
+🚀 手动切换 = select,♻️ 自动切换,interval=604800,tolerance=100,timeout=5,hidden=true,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash,url: http://www.gstatic.com/generate_204
 
-♻️ 自动切换 = url-test,update-interval=604800,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash
+♻️ 自动切换 = url-test,interval=604800,tolerance=100,timeout=5,hidden=true,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash,url: http://www.gstatic.com/generate_204
 
 🎬 YouTube = select,🚀 手动切换,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇸🇬 新加坡节点,🇰🇷 韩国节点
 
@@ -43,17 +43,17 @@ DIRECT = direct
 
 🐟 漏网之鱼 = select,🚀 手动切换,DIRECT
 
-🇭🇰 香港节点 = url-test,, update-interval=604800,  policy-regex-filter=香港|HK|HongKong,no-alert=0, hidden=0,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash
+🇭🇰 香港节点 = url-test,, interval=604800,  policy-regex-filter=香港|HK|HongKong-.*,tolerance=100,timeout=5,hidden=true,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash,url: http://www.gstatic.com/generate_204
 
-🇯🇵 日本节点 = url-test,update-interval=604800, policy-regex-filter=日本|JP, no-alert=0, hidden=0,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash
+🇯🇵 日本节点 = url-test,interval=604800, policy-regex-filter=日本|JP-.*, tolerance=100,timeout=5,hidden=true,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash,url: http://www.gstatic.com/generate_204
 
-🇺🇲 美国节点 = url-test,update-interval=604800, policy-regex-filter=美国|US, no-alert=0, hidden=0, policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash
+🇺🇲 美国节点 = url-test,interval=604800, policy-regex-filter=美国|US-.*, tolerance=100,timeout=5,hidden=true, policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash,url: http://www.gstatic.com/generate_204
 
-🇨🇳 台湾节点 = url-test,update-interval=604800, policy-regex-filter=台湾|TW, no-alert=0, hidden=0,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash
+🇨🇳 台湾节点 = url-test,interval=604800, policy-regex-filter=台湾|TW-.*, tolerance=100,timeout=5,hidden=true,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash,url: http://www.gstatic.com/generate_204
 
-🇸🇬 新加坡节点 = url-test,update-interval=604800, policy-regex-filter=新加坡|SG,no-alert=0, hidden=0,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash
+🇸🇬 新加坡节点 = url-test,interval=604800, policy-regex-filter=新加坡|SG-.*,tolerance=100,timeout=5,hidden=true,policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash,url: http://www.gstatic.com/generate_204
 
-🇰🇷 韩国节点 =url-test,update-interval=604800, policy-regex-filter=韩国|KR, no-alert=0, hidden=0, policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash
+🇰🇷 韩国节点 =url-test,interval=604800, policy-regex-filter=韩国|KR-.*, tolerance=100,timeout=5,hidden=true, policy-path=https://gist.githubusercontent.com/Crush-7S/8a553f848622384d7b4b06a21abbdee9/raw/Clash,url: http://www.gstatic.com/generate_204
 
 [Rule]
 RULE-SET,https://ghproxy.com/https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Surfboard/Advertising.list,🆎 AdBlock,update-interval=86400
